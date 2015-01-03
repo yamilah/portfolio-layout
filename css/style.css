@@ -1,16 +1,16 @@
 @font-face {
     font-family: TallFilms;
-    src: url(fonts/tlflms/Tall-Films-Expanded.ttf);
+    src: url(../fonts/tlflms/Tall-Films-Expanded.ttf);
 }
 
 @font-face {
     font-family: GenW01Light;
-    src: url(fonts/gen/GenWLight.otf);
+    src: url(../fonts/gen/GenWLight.otf);
 }
 
 @font-face {
     font-family: Alegreya;
-    src: url(fonts/aleg/Alegreya-Italic.ttf);
+    src: url(../fonts/aleg/Alegreya-Italic.ttf);
 }
 
 .static-width {
@@ -166,39 +166,39 @@ article:hover {
 }
 
 #img1 {
-	background-image: url(tiles/cncpts.jpg);
+	background-image: url(../tiles/cncpts.jpg);
 }
 
 #img2 {
-	background-image: url(tiles/collab.jpg);
+	background-image: url(../tiles/collab.jpg);
 }
 
 #img3 {
-	background-image: url(tiles/frgmnts.jpg);
+	background-image: url(../tiles/frgmnts.jpg);
 }
 
 #img4 {
-	background-image: url(tiles/nakba.jpg);
+	background-image: url(../tiles/nakba.jpg);
 }
 
 #img5 {
-	background-image: url(tiles/pomo.jpg);
+	background-image: url(../tiles/pomo.jpg);
 }
 
 #img6 {
-	background-image: url(tiles/qnto.jpg);
+	background-image: url(../tiles/qnto.jpg);
 }
 
 #img7 {
-	background-image: url(tiles/quilt.jpg);
+	background-image: url(../tiles/quilt.jpg);
 }
 
 #img8 {
-	background-image: url(tiles/rowe.jpg);
+	background-image: url(../tiles/rowe.jpg);
 }
 
 #img9 {
-	background-image: url(tiles/schmtcs.jpg);
+	background-image: url(../tiles/schmtcs.jpg);
 }
 
 #border {

@@ -13,6 +13,11 @@
     src: url(../fonts/aleg/Alegreya-Italic.ttf);
 }
 
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
 .static-width {
 	width: 980px;
 	margin-left: auto;
@@ -220,7 +225,7 @@ article:hover {
 	display: block;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
 	
 	.static-width {
 		width: 720px;
@@ -234,7 +239,7 @@ article:hover {
 	}	
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
 	
 	.static-width {
 		width: 600px;
@@ -256,7 +261,7 @@ article:hover {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
 	
 	.static-width {
 		width: 320px;
@@ -280,7 +285,7 @@ article:hover {
 	/*menu de mobil hasta el fin*/
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
 	
 	.static-width {
 		width: 250px;

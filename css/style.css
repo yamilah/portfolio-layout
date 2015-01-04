@@ -1,16 +1,21 @@
 @font-face {
     font-family: TallFilms;
-    src: url(fonts/tlflms/Tall-Films-Expanded.ttf);
+    src: url(../fonts/tlflms/Tall-Films-Expanded.ttf);
 }
 
 @font-face {
     font-family: GenW01Light;
-    src: url(fonts/gen/GenWLight.otf);
+    src: url(../fonts/gen/GenWLight.otf);
 }
 
 @font-face {
     font-family: Alegreya;
-    src: url(fonts/aleg/Alegreya-Italic.ttf);
+    src: url(../fonts/aleg/Alegreya-Italic.ttf);
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .static-width {
@@ -166,39 +171,39 @@ article:hover {
 }
 
 #img1 {
-	background-image: url(tiles/cncpts.jpg);
+	background-image: url(../tiles/cncpts.jpg);
 }
 
 #img2 {
-	background-image: url(tiles/collab.jpg);
+	background-image: url(../tiles/collab.jpg);
 }
 
 #img3 {
-	background-image: url(tiles/frgmnts.jpg);
+	background-image: url(../tiles/frgmnts.jpg);
 }
 
 #img4 {
-	background-image: url(tiles/nakba.jpg);
+	background-image: url(../tiles/nakba.jpg);
 }
 
 #img5 {
-	background-image: url(tiles/pomo.jpg);
+	background-image: url(../tiles/pomo.jpg);
 }
 
 #img6 {
-	background-image: url(tiles/qnto.jpg);
+	background-image: url(../tiles/qnto.jpg);
 }
 
 #img7 {
-	background-image: url(tiles/quilt.jpg);
+	background-image: url(../tiles/quilt.jpg);
 }
 
 #img8 {
-	background-image: url(tiles/rowe.jpg);
+	background-image: url(../tiles/rowe.jpg);
 }
 
 #img9 {
-	background-image: url(tiles/schmtcs.jpg);
+	background-image: url(../tiles/schmtcs.jpg);
 }
 
 #border {
@@ -220,7 +225,7 @@ article:hover {
 	display: block;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
 	
 	.static-width {
 		width: 720px;
@@ -234,7 +239,7 @@ article:hover {
 	}	
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
 	
 	.static-width {
 		width: 600px;
@@ -256,7 +261,7 @@ article:hover {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
 	
 	.static-width {
 		width: 320px;
@@ -280,7 +285,7 @@ article:hover {
 	/*menu de mobil hasta el fin*/
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
 	
 	.static-width {
 		width: 250px;

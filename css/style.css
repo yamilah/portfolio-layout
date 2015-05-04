@@ -5,12 +5,43 @@
 }
 
 @keyframes title-fade {
-    0%   {
-        opacity: 0;
-    }
     100% {
         opacity: 1;
     }
+}
+
+#idek {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    padding-bottom: .1em;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: .1em;
+}
+
+p {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
 }
 
 #contentWrapper {
@@ -18,25 +49,17 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 
-#headerWrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -50,12 +73,6 @@
     height: 300px;
 }
 
-.title {
-    text-align: center;
-    margin-top: -150px;
-    color: white;
-    opacity: 0;
-}
 
 figure {
     width: 300px;
@@ -71,15 +88,29 @@ figure {
     background-position: center center;
 }
 
-figure:hover {
+.title {
+    text-align: center;
+    margin-top: -150px;
+    color: white;
+    opacity: 0;
+}
+
+.imageWrapper:hover figure {
     opacity: 0.2;
 }
 
 .imageWrapper:hover .title {
     -webkit-animation: title-fade 2s ease;
     animation: title-fade 2s ease;
+
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 #img1 {

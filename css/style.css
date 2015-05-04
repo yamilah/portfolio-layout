@@ -13,20 +13,20 @@
 .imageWrapper {
     background-color: black;
 
-    width: 30em;
-    height: 30em;
+    width: 300px;
+    height: 300px;
 }
 
 .title {
     text-align: center;
-    margin-top: -15em;
+    margin-top: -150px;
     color: white;
     z-index: 5;
 }
 
 figure {
-    width: 30em;
-    height: 30em;
+    width: 300px;
+    height: 300px;
 
     opacity: 1;
     transition-property: opacity;
@@ -41,6 +41,8 @@ figure:hover {
     opacity: 0.2;
     z-index: 1;
 }
+
+
 
 #img1 {
     background-image: url(../tiles/cncpts.jpg);

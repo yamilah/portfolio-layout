@@ -1,15 +1,27 @@
+#contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #headerWrapper {
     display: flex;
     justify-content: center;
 }
 
-#imageWrapper {
+.imageWrapper {
     background-color: black;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    width: 30em;
+    height: 30em;
+}
+
+.title {
+    text-align: center;
+    margin-top: -15em;
+    color: white;
+    z-index: 5;
 }
 
 figure {
@@ -22,16 +34,12 @@ figure {
 
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 1;
 }
 
 figure:hover {
     opacity: 0.2;
-}
-
-figure p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
 }
 
 #img1 {

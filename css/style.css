@@ -1,12 +1,45 @@
+@-webkit-keyframes title-fade {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes title-fade {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #contentWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 #headerWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -21,7 +54,7 @@
     text-align: center;
     margin-top: -150px;
     color: white;
-    z-index: 5;
+    opacity: 0;
 }
 
 figure {
@@ -29,20 +62,25 @@ figure {
     height: 300px;
 
     opacity: 1;
+    -webkit-transition-property: opacity;
     transition-property: opacity;
+    -webkit-transition-duration: 0.7s;
     transition-duration: 0.7s;
 
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: 1;
 }
 
 figure:hover {
     opacity: 0.2;
-    z-index: 1;
 }
 
-
+.imageWrapper:hover .title {
+    -webkit-animation: title-fade 2s ease;
+    animation: title-fade 2s ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
 
 #img1 {
     background-image: url(../tiles/cncpts.jpg);

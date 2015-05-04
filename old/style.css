@@ -1,0 +1,300 @@
+@font-face {
+    font-family: TallFilms;
+    src: url(../fonts/tlflms/Tall-Films-Expanded.ttf);
+}
+
+@font-face {
+    font-family: GenW01Light;
+    src: url(../fonts/gen/GenWLight.otf);
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(../fonts/aleg/Alegreya-Italic.ttf);
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.static-width {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top-nav {
+	background-color: rgb(25,25,26);
+	height: 55px;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:focus {
+text-decoration: none;
+color: inherit;
+}
+
+nav ul {
+	float: right;
+	padding-top: 20px;
+}
+
+nav ul li {
+	display: inline;
+
+	color: white;
+	font-family: GenW01Light;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+}
+
+nav ul li:not(:last-child) {
+	margin-right: 35px;
+}
+
+#desktop-title {
+	float: left;
+
+	font-family: TallFilms;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 60px;
+	color: white;
+}
+
+#mobile-menu {
+	float: left;
+
+	font-family: TallFilms;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 60px;
+	color: white;
+}
+
+#mobile-icon {
+	margin-right: 7px;
+}
+
+#mobile-title {
+	font-family: TallFilms;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 60px;
+	color: rgb(25,25,26);
+
+	margin-bottom: 20px;
+}
+
+#blurb {
+	clear: both;
+
+	color: #717171;
+	text-align: center;
+
+	margin-top: 95px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-family: GenW01Light;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16pt;
+	color: rgb(25,25,26);
+
+	margin-bottom: 10px;	
+}
+
+h4 {
+	font-family: GenW01Light;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16pt;
+	color: rgb(25,25,26);
+}
+
+p {
+	font-family: Alegreya;
+	font-weight: normal;
+	font-style: normal;;
+}
+
+.carousel-caption {
+	font-family: Alegreya;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(107,107,107);
+}
+
+article {
+	width: 488px;
+	height: 488px;
+
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.7s;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	display: inline-block;
+
+	font-family: Alegreya;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+	text-align: center;
+}
+
+article a {
+	position: relative;
+	top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+article:hover {
+	opacity: 0.2;
+}
+
+#img1 {
+	background-image: url(../tiles/cncpts.jpg);
+}
+
+#img2 {
+	background-image: url(../tiles/collab.jpg);
+}
+
+#img3 {
+	background-image: url(../tiles/frgmnts.jpg);
+}
+
+#img4 {
+	background-image: url(../tiles/nakba.jpg);
+}
+
+#img5 {
+	background-image: url(../tiles/pomo.jpg);
+}
+
+#img6 {
+	background-image: url(../tiles/qnto.jpg);
+}
+
+#img7 {
+	background-image: url(../tiles/quilt.jpg);
+}
+
+#img8 {
+	background-image: url(../tiles/rowe.jpg);
+}
+
+#img9 {
+	background-image: url(../tiles/schmtcs.jpg);
+}
+
+#border {
+	border-top: dotted 1px;
+	border-color: rgb(187,187,187);
+}
+
+#content {
+	margin-bottom: 60px;
+	transition-property: width;
+	transition-duration: 0.7s;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: block;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.static-width {
+		width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article {
+		width: 358px;
+		height: 358px;
+	}	
+}
+
+@media screen and (max-width: 740px) {
+	
+	.static-width {
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article {
+		width: 298px;
+		height: 298px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	
+	.static-width {
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article {
+		width: 320px;
+		height: 320px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	/*menu de mobil hasta el fin*/
+}
+
+@media screen and (max-width: 340px) {
+	
+	.static-width {
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article {
+		width: 250px;
+		height: 250px;
+	}	
+}

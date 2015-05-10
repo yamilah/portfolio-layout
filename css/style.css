@@ -10,7 +10,7 @@
     }
 }
 
-#idek {
+#headerWrapper {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -28,8 +28,9 @@
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2.4em;
     padding-bottom: .1em;
+    letter-spacing: .05em;
 }
 
 h2 {

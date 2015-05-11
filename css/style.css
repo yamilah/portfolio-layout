@@ -1,3 +1,8 @@
+.selected {
+    color: white;
+    background-color: black;
+}
+
 @-webkit-keyframes title-fade {
     100% {
         opacity: 1;
@@ -8,6 +13,11 @@
     100% {
         opacity: 1;
     }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #headerWrapper {
@@ -43,6 +53,11 @@ h2 {
 p {
     font-family: 'Alegreya', serif;
     font-style: italic;
+}
+
+aside {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 }
 
 #contentWrapper {
@@ -108,10 +123,33 @@ figure {
     animation-fill-mode: forwards;
 }
 
-aside {
+aside img {
     position: fixed;
-    left: 0;
-    top: 0;
+    top: 2em;
+    left: 2em;
+}
+
+aside nav {
+    display: none;
+    position: fixed;
+    top: 4.5em;
+    left: 2em;
+    line-height: 2em;
+}
+
+aside ul {
+    background-color: white;
+    box-shadow: 0.1em 0.1em 0.8em rgba(61, 61, 61, 0.211);
+}
+
+aside li {
+
+    padding: 0.4em 1em 0 1em;
+}
+
+aside li:hover {
+    color: white;
+    background-color: black;
 }
 
 #img1 {

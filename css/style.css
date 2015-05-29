@@ -60,6 +60,18 @@ aside {
     font-weight: 400;
 }
 
+#centerWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 #contentWrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -76,10 +88,19 @@ aside {
     -ms-flex-direction: row;
     flex-direction: row;
 
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+    max-width: 1200px;
+}
+
+.lastIcon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .imageWrapper {
@@ -88,7 +109,6 @@ aside {
     width: 300px;
     height: 300px;
 }
-
 
 figure {
     width: 300px;

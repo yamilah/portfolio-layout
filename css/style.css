@@ -82,6 +82,13 @@ aside {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     max-width: 75em;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    margin-bottom: 2em;
 }
 
 .lastIcon {
@@ -175,6 +182,25 @@ aside li:hover {
 @media (max-width: 37.5em) {
     #contentWrapper {
         max-width: 18.75em;
+    }
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.9em;
+        padding-bottom: .1em;
+        letter-spacing: .05em;
+    }
+
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.55em;
+        padding-bottom: .1em;
+    }
+
+    section p {
+        font-size: .8em;
     }
 }
 

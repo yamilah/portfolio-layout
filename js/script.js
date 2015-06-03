@@ -9,4 +9,8 @@ $(document).ready(function() {
 
         $("[data-"+dataType+"]").slideToggle();
     });
+
+    $(".detailLabel").click(function() {
+        alert("test");
+    });
 });

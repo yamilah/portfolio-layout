@@ -219,18 +219,12 @@ display: flex;
 justify-content: center;
 }
 
-.detailPreview {
-width: 600px;
-height: 872px;
-}
+#detailImage {
+background: url(../assets/frgmnt_small.jpg) no-repeat;
+background-size: contain;
 
-.detailImage {
-width: 600px;
-height: 872px;
-
-background-image: url(../assets/frgmnt_small.jpg);
-background-repeat: no-repeat;
-background-position: center center;
+width: 100%;
+height: 100%;
 }
 */
 

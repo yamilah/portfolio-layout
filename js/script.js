@@ -10,7 +10,7 @@ $(document).ready(function() {
         $("[data-"+dataType+"]").slideToggle();
     });
 
-    $(".detailLabel").click(function() {
+    $(".imageWrapper p").click(function() {
         alert("test");
     });
 });

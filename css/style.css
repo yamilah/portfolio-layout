@@ -245,32 +245,30 @@ aside li:hover {
     max-width: 70vw;
 }
 
-/*
 .sideInfo {
-position: absolute;
+    position: absolute;
 
-top: 75%%;
-right: 20%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-height: 100vh;
+    top: 75%%;
+    right: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100vh;
 
-padding: 5em;
-background-color: white;
-overflow: auto;
+    padding: 5em;
+    background-color: white;
+    overflow: auto;
 
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 
--webkit-box-pack: center;
--webkit-justify-content: center;
--ms-flex-pack: center;
-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
-*/
 
 @media (max-width: 75em) {
     #contentWrapper {

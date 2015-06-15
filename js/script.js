@@ -10,7 +10,8 @@ $(document).ready(function() {
         $("[data-"+dataType+"]").slideToggle();
     });
 
-    $(".imageWrapper p").click(function() {
-        alert("test");
+    $(".imageWrapper").click(function() {
+        var id = this.getElementsByTagName("figure").id;
+        $("lightbox-"+id).show();
     });
 });

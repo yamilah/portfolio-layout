@@ -307,6 +307,10 @@ aside li:hover {
     }
 }
 
+#lightbox-img3 {
+    display: none;
+}
+
 #img1 {
     background-image: url(../tiles/cncpts.jpg);
 }

@@ -197,41 +197,28 @@ aside li:hover {
 .lightBox {
     position: absolute;
 
-    top: 80%;
+    top: 40px;
+    margin-bottom: 40px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 
     padding: .5em 2em 2em 2em;
     background-color: white;
     overflow: auto;
-
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
-#boxContainer {
-    display: inline;
-}
-
-#closeWrapper {
-    width: 3em;
-    height: 3em;
+.closeWrapper {
+    width: 2em;
+    height: 2em;
 
     float: right;
 
     padding-bottom: .5em;
 }
 
-#closeImage {
+.closeImage {
     background-image: url(../assets/x.svg);
     width: 100%;
     height: 100%;
@@ -241,14 +228,18 @@ aside li:hover {
     background-size: cover;
 }
 
-#detailWrapper img {
+.detailWrapper img {
     max-width: 70vw;
+    display: block;
+}
+
+.detailWrapper img:not(:last-child) {
+    margin-bottom: 2em;
 }
 
 .sideInfo {
     position: absolute;
 
-    top: 75%%;
     right: 20%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -307,7 +298,39 @@ aside li:hover {
     }
 }
 
+#lightbox-img1 {
+    display: none;
+}
+
+#lightbox-img2 {
+    display: none;
+}
+
 #lightbox-img3 {
+    display: none;
+}
+
+#lightbox-img4 {
+    display: none;
+}
+
+#lightbox-img5 {
+    display: none;
+}
+
+#lightbox-img6 {
+    display: none;
+}
+
+#lightbox-img7 {
+    display: none;
+}
+
+#lightbox-img8 {
+    display: none;
+}
+
+#lightbox-img9 {
     display: none;
 }
 

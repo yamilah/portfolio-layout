@@ -10,8 +10,15 @@ $(document).ready(function() {
         $("[data-"+dataType+"]").slideToggle();
     });
 
-    $(".imageWrapper").click(function() {
-        var id = this.getElementsByTagName("figure").id;
-        $("lightbox-"+id).show();
+    $(".imageWrapper figure").click(function() {
+        $("#lightbox-" + this.id).show();
+    });
+
+    $(".closeImage").click(function() {
+        $(this.parentElement.parentElement.parentElement.parentElement).hide();
+    });
+
+    $(".blackOverlay").click(function() {
+        $(this.parentElement).hide();
     });
 });

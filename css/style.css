@@ -204,11 +204,12 @@ aside li:hover {
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 
-    padding: .5em 2em 2em 2em;
+/*    padding: .5em 2em 2em 2em;*/
     background-color: white;
     overflow: auto;
 }
 
+/*
 .closeWrapper {
     width: 2em;
     height: 2em;
@@ -217,7 +218,9 @@ aside li:hover {
 
     padding-bottom: .5em;
 }
+*/
 
+/*
 .closeImage {
     background-image: url(../assets/x.svg);
     width: 100%;
@@ -227,14 +230,29 @@ aside li:hover {
     background-position: center center;
     background-size: cover;
 }
+*/
+
+.detailWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 .detailWrapper img {
     max-width: 70vw;
     display: block;
-}
-
-.detailWrapper img:not(:last-child) {
-    margin-bottom: 2em;
 }
 
 .sideInfo {
@@ -334,6 +352,30 @@ aside li:hover {
     display: none;
 }
 
+#lightbox-img10 {
+    display: none;
+}
+
+#lightbox-img11 {
+    display: none;
+}
+
+#lightbox-img12 {
+    display: none;
+}
+
+#lightbox-img13 {
+    display: none;
+}
+
+#lightbox-img14 {
+    display: none;
+}
+
+#lightbox-img15 {
+    display: none;
+}
+
 #img1 {
     background-image: url(../tiles/cncpts.jpg);
 }
@@ -367,5 +409,33 @@ aside li:hover {
 }
 
 #img9 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img9 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img10 {
+    background-image: url(../tiles/shahadah.jpg);
+}
+
+#img11 {
+    background-image: url(../tiles/letterforms.jpg);
+}
+
+#img12 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img13 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img14 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img15 {
     background-image: url(../tiles/schmtcs.jpg);
 }

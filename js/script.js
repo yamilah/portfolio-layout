@@ -14,6 +14,10 @@ $(document).ready(function() {
         $("#lightbox-" + this.id).show();
     });
 
+    $(".imageWrapper p").click(function() {
+        $("#lightbox-" + this.parentElement.previousElementSibling.id).show();
+    });
+
     $(".closeImage").click(function() {
         $(this.parentElement.parentElement.parentElement.parentElement).hide();
     });

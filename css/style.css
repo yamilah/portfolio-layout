@@ -233,9 +233,10 @@ aside li:hover {
 */
 
 .detailWrapper {
-    display: -webkit-box;
+    display: -webkit-ox;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
 
     -webkit-box-orient: vertical;
@@ -425,17 +426,29 @@ aside li:hover {
 }
 
 #img12 {
-    background-image: url(../tiles/schmtcs.jpg);
+    background-image: url(../tiles/randposter.jpg);
 }
 
 #img13 {
-    background-image: url(../tiles/schmtcs.jpg);
+    background-image: url(../tiles/poems.jpg);
 }
 
 #img14 {
-    background-image: url(../tiles/schmtcs.jpg);
+    background-image: url(../tiles/falasteen.jpg);
 }
 
 #img15 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img16 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img17 {
+    background-image: url(../tiles/schmtcs.jpg);
+}
+
+#img18 {
     background-image: url(../tiles/schmtcs.jpg);
 }

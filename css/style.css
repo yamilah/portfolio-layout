@@ -384,6 +384,18 @@ background-size: cover;
     display: none;
 }
 
+#lightbox-img16 {
+    display: none;
+}
+
+#lightbox-img17 {
+    display: none;
+}
+
+#lightbox-img18 {
+    display: none;
+}
+
 #img1 {
     background-image: url(../tiles/cncpts.jpg);
 }

@@ -203,33 +203,8 @@ aside li:hover {
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-
-    /*    padding: .5em 2em 2em 2em;*/
     background-color: white;
 }
-
-/*
-.closeWrapper {
-width: 2em;
-height: 2em;
-
-float: right;
-
-padding-bottom: .5em;
-}
-*/
-
-/*
-.closeImage {
-background-image: url(../../assets/x.svg);
-width: 100%;
-height: 100%;
-
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-}
-*/
 
 .detailWrapper {
     display: -webkit-ox;
@@ -394,80 +369,4 @@ background-size: cover;
 
 #lightbox-img18 {
     display: none;
-}
-
-#img1 {
-    background-image: url(../assets/tiles/cncpts.jpg);
-}
-
-#img2 {
-    background-image: url(../assets/tiles/collab.jpg);
-}
-
-#img3 {
-    background-image: url(../assets/tiles/frgmnts.jpg);
-}
-
-#img4 {
-    background-image: url(../assets/tiles/nakba.jpg);
-}
-
-#img5 {
-    background-image: url(../assets/tiles/pomo.jpg);
-}
-
-#img6 {
-    background-image: url(../assets/tiles/qnto.jpg);
-}
-
-#img7 {
-    background-image: url(../assets/tiles/quilt.jpg);
-}
-
-#img8 {
-    background-image: url(../assets/tiles/rowe.jpg);
-}
-
-#img9 {
-    background-image: url(../assets/tiles/schmtcs.jpg);
-}
-
-#img9 {
-    background-image: url(../assets/tiles/schmtcs.jpg);
-}
-
-#img10 {
-    background-image: url(../assets/tiles/shahadah.jpg);
-}
-
-#img11 {
-    background-image: url(../assets/tiles/letterforms.jpg);
-}
-
-#img12 {
-    background-image: url(../assets/tiles/randposter.jpg);
-}
-
-#img13 {
-    background-image: url(../assets/tiles/poems.jpg);
-}
-
-#img14 {
-    background-image: url(../assets/tiles/falasteen.jpg);
-}
-
-#img15 {
-    background-image: url(../assets/tiles/stpaul.jpg);
-}
-
-#img16 {
-    background-image: url(../assets/tiles/nunca.jpg);
-}
-
-#img17 {
-    background-image: url(../assets/tiles/schmtcs.jpg);
-}
-
-#img18 {
-    background-image: url(../assets/tiles/schmtcs.jpg);
 }
